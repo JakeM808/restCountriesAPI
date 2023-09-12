@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Fetch Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- defer allows the script to be ran after the DOM Loads -->
+    <script src="./static/js/index.js" defer></script>
+    <!-- <script src="./static/js/gettingToKnowDocument.js" defer></script> -->
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="is-visible" id="home">
+            <div class="hero-image">
+                <div class="hero-text">
+                  <h1>Rest Countries Query</h1>
+                </div>
+            </div>
+        </div>
+   
+        <div class="is-visible" id="find-country">
+          <form id="countryInfoForm">
+            <div class="m-4 w-50">
+                <input class="form-control m-3" name="country" placeholder="Country">
+                <button id="countryInfoInput" type="submit" class="form-control btn btn-primary m-3">Search</button>
+            </div>    
+          </form>
+            <table id="country-table">
+              
+            </table>
+        </div>
+      
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
